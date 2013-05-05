@@ -1,4 +1,4 @@
-etherpad-stresstest
+etherdraw-stresstest
 Makefile
 *.o
 moc_*.cpp

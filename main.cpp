@@ -16,8 +16,8 @@
 static QString clientspec;
 static int verbosity = Logger::Info;
 static int duration = 300;  // run 300 seconds (5 minutes)
-static QUrl padurl;   // etherpad URL to connect to (pad must exist)
-// Authorization for etherpad connection
+static QUrl padurl;   // etherdraw URL to connect to (pad must exist)
+// Authorization for etherdraw connection
 static QString username;
 static QString password;
 
