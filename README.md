@@ -15,11 +15,11 @@ YUM based (CentOS):
 `./etherdraw-stresstest http://127.0.0.1:3000/d/foo`
 
 # Examples:
-Basic run against localhost padId foo: 
+Basic run against localhost drawing id foo: 
 `./etherdraw-stresstest http://localhost:3000/d/foo`
 
-Run with 10 lurking clients and 50 writers:
-`./etherdraw-stresstest --clients=lurk:10,write:50 http://localhost:3000/d/foo`
+Run with 10 lurking clients and 50 drawers:
+`./etherdraw-stresstest --clients=lurk:10,draw:50 http://localhost:3000/d/foo`
 
 Run with verbosity/debug output set to the lowest setting: 
 `./etherdraw-stresstest --verbosity=0 http://localhost:3000/d/foo`
