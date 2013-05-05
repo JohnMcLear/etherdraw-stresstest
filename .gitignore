@@ -1,0 +1,4 @@
+etherpad-stresstest
+Makefile
+*.o
+moc_*.cpp
