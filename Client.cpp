@@ -184,7 +184,7 @@ void Client::kick() {
         case CsActive:
             if (m_logic == "badfollow") {
                 sendBadFollow();
-            } else if (m_logic == "write") {
+            } else if (m_logic == "draw") {
                 for (int i = 1; i <= 3; i++)
                     makeRandomEdit();
                 sendChangeset(m_pad.toChangeset(), m_pad.attributes());

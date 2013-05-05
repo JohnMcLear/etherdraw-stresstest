@@ -12,23 +12,23 @@ YUM based (CentOS):
 `make`
 
 ### 3. Test (Assuming Etherdraw is running locally)
-`./etherdraw-stresstest http://127.0.0.1:3000/p/foo`
+`./etherdraw-stresstest http://127.0.0.1:3000/d/foo`
 
 # Examples:
 Basic run against localhost padId foo: 
-`./etherdraw-stresstest http://localhost:3000/p/foo`
+`./etherdraw-stresstest http://localhost:3000/d/foo`
 
 Run with 10 lurking clients and 50 writers:
-`./etherdraw-stresstest --clients=lurk:10,write:50 http://localhost:3000/p/foo`
+`./etherdraw-stresstest --clients=lurk:10,write:50 http://localhost:3000/d/foo`
 
 Run with verbosity/debug output set to the lowest setting: 
-`./etherdraw-stresstest --verbosity=0 http://localhost:3000/p/foo`
+`./etherdraw-stresstest --verbosity=0 http://localhost:3000/d/foo`
 
 Run with a username and password set: 
-`./etherdraw-stresstest --user=John http://localhost:3000/p/foo`
+`./etherdraw-stresstest --user=John http://localhost:3000/d/foo`
 
 Run for 3 seconds:
-`./etherdraw-stresstest --duration=3 http://localhost:3000/p/foo`
+`./etherdraw-stresstest --duration=3 http://localhost:3000/d/foo`
 
 
 # Options:
