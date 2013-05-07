@@ -38,6 +38,6 @@ Run for 3 seconds:
 
 `  --verbosity = INTEGER - The verbosity of the output to the CLI (0 being lowest) IE 0`
 
-`  --user = STRING - The username used to connect to a pad (You will be prompted for a password) IE john`
+`  --user = STRING - The username used to connect to a drawing (You will be prompted for a password) IE john`
 
 

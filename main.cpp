@@ -16,7 +16,7 @@
 static QString clientspec;
 static int verbosity = Logger::Info;
 static int duration = 300;  // run 300 seconds (5 minutes)
-static QUrl padurl;   // etherdraw URL to connect to (pad must exist)
+static QUrl padurl;   // etherdraw URL to connect to (drawing must exist)
 // Authorization for etherdraw connection
 static QString username;
 static QString password;
@@ -66,8 +66,8 @@ void parse_arguments() {
         exit(2);
     }
     padurl = args[i];
-    if (args[i].section('/', -2, -2) != "p") {
-        qCritical("pad url must end with /p/PADNAME to be valid");
+    if (args[i].section('/', -2, -2) != "d") {
+        qCritical("draw url must end with /d/DRAWNAME to be valid");
         exit(2);
     }
 
